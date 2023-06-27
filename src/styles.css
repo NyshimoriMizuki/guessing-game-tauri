@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.title {
+    color: #ffffff;
+}
+
+.gamebody {
+    background-color: rgb(85, 85, 85);
+}
+
+.message {
+    color: #ffffff;
+}
+
+.guess {
+    background-color: rgb(167, 167, 167);
+}
+
+.error-msg {
+    color: rgb(255, 0, 0);
+}
+
+.link {}
