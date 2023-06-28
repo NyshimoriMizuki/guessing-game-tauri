@@ -15,14 +15,22 @@
   </header>
 
   <main class="gamebody">
-    <div id="main-msg">Try to guess my secret number.</div>
+    <div class="main-msg">Try to guess my secret number.</div>
     <br>
-    <input type="text" id="guess" placeholder="The number is in between 1 and 100.">
-    <div id="error-msg">Error message</div>
+    <input type="text" class="guess" placeholder="The number is in between 1 and 100.">
+    <div class="error-msg"> </div>
   </main>
+  <div class="end-btns">
+    <button class="end-btn" id="restart-btn" onclick="window.location.reload()" disabled>
+      restart
+    </button>
+    <button class="end-btn" id="exit-btn" onclick="window.close()" disabled>
+      exit
+    </button>
+  </div>
 
   <footer>
-    Created by <a id="link">Nyshimori Mizuki</a>
+    Created by <a class="link">Nyshimori Mizuki</a>
   </footer>
 </body>
 

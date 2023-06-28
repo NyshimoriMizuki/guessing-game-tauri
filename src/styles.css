@@ -26,18 +26,24 @@ body {
     border-radius: 10px;
     padding: 20px 0px;
 
-    height: 125px;
+    height: 140px;
     width: 500px;
 }
 
-#main-msg {
+.main-msg {
+    height: 35px;
+
     font: 18px 'Montserrat';
     font-weight: 200;
-    font-style: italic;
     color: rgb(255, 255, 255);
+
+    #sub-txt {
+        font-size: 14px;
+        font-style: italic;
+    }
 }
 
-#guess {
+.guess {
     font: 12px 'Montserrat';
     font-style: normal;
     border: 0px solid;
@@ -48,11 +54,37 @@ body {
     background-color: rgb(167, 167, 167);
 }
 
-#error-msg {
+.error-msg {
     margin-top: 10px;
-    font: 12px 'Montserrat';
+    font: 14px 'Montserrat';
     font-style: normal;
     color: rgb(255, 0, 0);
+}
+
+.end-btn {
+    width: 75px;
+    height: 30px;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0px 10px;
+    padding: 2.5px;
+
+    font: 13px 'Montserrat';
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(119, 211, 119);
+
+    cursor: pointer;
+}
+
+.end-btn:hover {
+    background-color: rgb(75, 75, 75);
+    color: rgb(142, 255, 142);
+}
+
+.end-btn:disabled {
+    display: none;
 }
 
 footer {
@@ -68,13 +100,13 @@ footer {
     font-style: italic;
     font-weight: 400;
 
-    #link {
+    .link {
         color: rgb(43, 110, 43);
         text-decoration: underline;
         cursor: pointer;
     }
 
-    #link:hover {
+    .link:hover {
         color: rgb(68, 175, 68);
     }
 }

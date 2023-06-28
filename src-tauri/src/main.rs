@@ -2,6 +2,8 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 use tauri::Manager;
 
+mod guessing_game;
+
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 #[tauri::command]
 fn greet(name: &str) -> String {
@@ -19,7 +21,12 @@ fn main() {
             }
             Ok(())
         })
-        .invoke_handler(tauri::generate_handler![greet])
+        .invoke_handler(tauri::generate_handler![
+            greet,
+            guessing_game::check_guess,
+            guessing_game::get_random_number,
+            guessing_game::render_message
+        ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
