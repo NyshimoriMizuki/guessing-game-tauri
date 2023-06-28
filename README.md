@@ -1,7 +1,10 @@
-# Tauri + Vanilla TS
+# Tauri — Guessing Game!
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+It is a *Guessing Game* made with Tauri, the foucus of it is I learn a bit of how use Tauir and make Front-end code.
 
-## Recommended IDE Setup
+***
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Resources and Setup
+- [Tauri](https://tauri.app/)
+- [Typescript](https://www.typescriptlang.org/) + [Rust](https://www.rust-lang.org/)
+- [VS Code](https://code.visualstudio.com/)
