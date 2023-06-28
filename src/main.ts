@@ -22,6 +22,6 @@ guess_input?.addEventListener("keydown", async (event) => {
 });
 
 // It makes the #link open the link in the browser
-document.querySelector("#link")?.addEventListener("click", () => {
+document.querySelector(".link")?.addEventListener("click", () => {
     shell.open("https://github.com/NyshimoriMizuki").then();
 })
