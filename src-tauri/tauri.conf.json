@@ -7,8 +7,8 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "learning-tauri",
-    "version": "0.0.0"
+    "productName": "guessing-game-tauri",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
