@@ -35,8 +35,8 @@
         "fullscreen": false,
         "resizable": false,
         "title": "learning-tauri",
-        "width": 800,
-        "height": 600
+        "width": 600,
+        "height": 350
       }
     ]
   }

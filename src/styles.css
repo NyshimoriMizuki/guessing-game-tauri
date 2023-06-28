@@ -1,26 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(22, 22, 22);
     text-align: center;
 }
 
 .title {
-    color: #ffffff;
+    font: 20px 'Belanosima';
+    margin: 20px;
+    color: rgb(255, 255, 255);
 }
 
 .gamebody {
-    background-color: rgb(85, 85, 85);
+    margin: 10px 50px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    padding: 20px 0px;
+
+    height: 125px;
+    width: 500px;
 }
 
-.message {
-    color: #ffffff;
+#main-msg {
+    font: 18px 'Montserrat';
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(255, 255, 255);
 }
 
-.guess {
+#guess {
+    font: 12px 'Montserrat';
+    font-style: normal;
+    border: 0px solid;
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+    text-align: center;
     background-color: rgb(167, 167, 167);
 }
 
-.error-msg {
+#error-msg {
+    margin-top: 10px;
+    font: 12px 'Montserrat';
+    font-style: normal;
     color: rgb(255, 0, 0);
 }
 
-.link {}
+footer {
+    padding: 20px;
+    color: rgb(110, 110, 110);
+    border-top: 1px solid rgb(97, 97, 97);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    user-select: none;
+
+    font: 14px 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+
+    #link {
+        color: rgb(43, 110, 43);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #link:hover {
+        color: rgb(68, 175, 68);
+    }
+}
