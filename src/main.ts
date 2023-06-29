@@ -21,7 +21,7 @@ guess_input?.addEventListener("keydown", async (event) => {
     GuessingGame.updateMessage(errorMessage, '.error-msg');
 });
 
-// It makes the #link open the link in the browser
-document.querySelector(".link")?.addEventListener("click", () => {
-    shell.open("https://github.com/NyshimoriMizuki").then();
-})
+// // It makes the .link open the link in the browser
+// document.querySelector(".link")?.addEventListener("click", () => {
+//     shell.open("https://github.com/NyshimoriMizuki").then();
+// })
