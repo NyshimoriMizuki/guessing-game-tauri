@@ -1,5 +1,3 @@
-import { shell } from "@tauri-apps/api";
-
 import GuessingGame from "./guessing_game";
 import reset from "./reset_browser";
 
@@ -20,8 +18,3 @@ guess_input?.addEventListener("keydown", async (event) => {
     GuessingGame.updateMessage(mainMessage, '.main-msg');
     GuessingGame.updateMessage(errorMessage, '.error-msg');
 });
-
-// // It makes the .link open the link in the browser
-// document.querySelector(".link")?.addEventListener("click", () => {
-//     shell.open("https://github.com/NyshimoriMizuki").then();
-// })
